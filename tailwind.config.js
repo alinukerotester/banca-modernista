@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
-  mode: "jit",
+  // mode: "jit",
   theme: {
     extend: {
       colors: {
@@ -23,8 +23,5 @@ export default {
       xl: "1700px",
     },
   },
-  plugins: [
-    require('tailwindcss'),
-    require('autoprefixer'),
-  ],
+  plugins: [],
 };
