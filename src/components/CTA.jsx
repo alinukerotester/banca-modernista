@@ -1,5 +1,5 @@
-const CTA = () => {
+const componanteName = () => {
   return <div>animation</div>;
 };
 
-export default CTA;
+export default componanteName;
