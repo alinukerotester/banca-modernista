@@ -1,5 +1,5 @@
-const ComponentName = () => {
+const Testimonials = () => {
   return <div></div>;
 };
 
-export default ComponentName;
+export default Testimonials;

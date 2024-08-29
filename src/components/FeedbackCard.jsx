@@ -1,5 +1,5 @@
-const ComponentName = () => {
+const FeedbackCard = () => {
   return <div></div>;
 };
 
-export default ComponentName;
+export default FeedbackCard;

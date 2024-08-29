@@ -1,5 +1,5 @@
-const ComponentName = () => {
-  return <div></div>;
+const CTA = () => {
+  return <div>animation</div>;
 };
 
-export default ComponentName;
+export default CTA;

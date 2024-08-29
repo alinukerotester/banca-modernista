@@ -1,5 +1,5 @@
-const ComponentName = () => {
+const Stats = () => {
   return <div></div>;
 };
 
-export default ComponentName;
+export default Stats;

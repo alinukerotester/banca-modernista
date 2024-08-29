@@ -1,5 +1,5 @@
-const ComponentName = () => {
+const GetStarted = () => {
   return <div></div>;
 };
 
-export default ComponentName;
+export default GetStarted;

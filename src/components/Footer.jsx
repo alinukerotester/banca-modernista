@@ -1,5 +1,5 @@
-const ComponentName = () => {
+const Footer = () => {
   return <div></div>;
 };
 
-export default ComponentName;
+export default Footer;

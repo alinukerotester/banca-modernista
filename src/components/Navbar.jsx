@@ -1,5 +1,5 @@
-const ComponentName = () => {
+const Navbar = () => {
   return <div></div>;
 };
 
-export default ComponentName;
+export default Navbar;
