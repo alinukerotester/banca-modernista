@@ -16,8 +16,9 @@ const Clients = () => (
               alt="client"
               className="sm:w-[192px] w-[100px] object-contain transition-transform duration-300 transform group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-green-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300">
-              ACESAT
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-green-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 group-hover:translate-y-0 translate-y-3 transition-all duration-500 ease-in-out">
+              <span className="text-white font-bold text-lg">ACESAȚI</span>
             </div>
           </div>
         </div>
