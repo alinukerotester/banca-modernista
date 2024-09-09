@@ -1,6 +1,6 @@
 import { feedback } from '../../constants';
 import styles from '../../style';
-import FeedbackCard from '../backfeedcard/FeedbackCard';
+import FeedbackCard from '../FeedbackCard/FeedbackCard';
 
 const Testimonials = () => (
   <section

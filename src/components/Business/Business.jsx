@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { features } from '../../constants';
 import styles, { layout } from '../../style';
-import Button from '../buton/Button';
+import Button from '../Button/Button';
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
