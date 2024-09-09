@@ -7,13 +7,19 @@ const Clients = () => (
       {clients.map((client) => (
         <div
           key={client.id}
-          className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px]`}
+          className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px] cursor-pointer`}
+          onClick={() => window.open(client.website, '_blank')}
         >
-          <img
-            src={client.logo}
-            alt="client"
-            className="sm:w-[192px] w-[100px] object-contain transition-transform duration-300 transform hover:scale-105"
-          />
+          <div className="relative group">
+            <img
+              src={client.logo}
+              alt="client"
+              className="sm:w-[192px] w-[100px] object-contain transition-transform duration-300 transform group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-green-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+              ACESAT
+            </div>
+          </div>
         </div>
       ))}
     </div>
