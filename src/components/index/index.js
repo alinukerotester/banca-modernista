@@ -3,7 +3,7 @@ import Billing from '../Billing/Billing';
 import CardDeal from '../CardDeal/CardDeal';
 import Business from '../Business/Business';
 import Clients from '../Clients/Clients';
-import CTA from '../CTA/CTA';
+import Util from '../CTA/Util';
 import Stats from '../Stats/Stats';
 import Footer from '../Footer/Footer';
 import Testimonials from '../Testimonials/Testimonials';
@@ -15,7 +15,7 @@ export {
   CardDeal,
   Business,
   Clients,
-  CTA,
+  Util,
   Stats,
   Footer,
   Testimonials,

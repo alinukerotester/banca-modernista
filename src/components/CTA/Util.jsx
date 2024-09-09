@@ -1,7 +1,7 @@
 import styles from '../../style';
 import Button from '../Button/Button';
 
-const CTA = () => {
+const Util = () => {
   return (
     <section
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
@@ -20,4 +20,4 @@ const CTA = () => {
   );
 };
 
-export default CTA;
+export default Util;
