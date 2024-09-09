@@ -1,4 +1,4 @@
-import { quotes } from '../assets';
+import { quotes } from '../../assets';
 import PropTypes from 'prop-types';
 
 const FeedbackCard = ({ content, name, title, img }) => (

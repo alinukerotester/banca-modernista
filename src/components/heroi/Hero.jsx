@@ -1,6 +1,6 @@
-import { discount, robot } from '../assets';
-import styles from '../style';
-import GetStarted from './GetStarted';
+import { discount, robot } from '../../assets';
+import styles from '../../style';
+import GetStarted from '../getstart/GetStarted';
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>

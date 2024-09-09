@@ -1,5 +1,5 @@
-import { arrowUp } from '../assets';
-import styles from '../style';
+import { arrowUp } from '../../assets';
+import styles from '../../style';
 
 const GetStarted = () => (
   <div
