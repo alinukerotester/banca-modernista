@@ -9,7 +9,7 @@ import {
   Navbar,
   Stats,
   Testimonials,
-} from './components/speciindex';
+} from './components/index';
 import styles from './style';
 
 const App = () => (
